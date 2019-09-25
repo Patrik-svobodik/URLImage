@@ -9,13 +9,13 @@ import SwiftUI
 import ImageIOSwift
 import ImageIOSwiftUI
 
-struct URLImage: View {
+public struct URLImage: View {
     // MARK: Properties
     private var urlString: String
     private var url: URL
     private var defaultURL: String = "https://google.com"
     // MARK: Functions
-    init(_ urlString: String) {
+    public init(_ urlString: String) {
         self.urlString = urlString
         self.url = URL(string: self.defaultURL)!
         self.url = self.guardURL(urlString)
@@ -27,7 +27,7 @@ struct URLImage: View {
         return url
     }
     // MARK: - Body
-    var body: some View {
+    public var body: some View {
         ZStack {
             // MARK: Placeholder
             Image("placeholder")
