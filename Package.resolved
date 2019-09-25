@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ImageIOSwift",
+        "repositoryURL": "https://github.com/Patrik-svobodik/ImageIOSwift.git",
+        "state": {
+          "branch": "1.0.0",
+          "revision": "a09727ab6ea464730ea469b34fda149bdc2e1907",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
