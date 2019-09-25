@@ -6,7 +6,7 @@ final class URLImageTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(URLImage().text, "Hello, World!")
+        //XCTAssertEqual(URLImage("https://patrik-svobodik.github.io/private-tests/img/placeholder.jpg"), "Hello, World!")
     }
 
     static var allTests = [
